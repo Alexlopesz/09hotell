@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bright Hotell</title>
+        <link rel="stylesheet" type="text/css" href="test.css">
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="boka.html">Boka</a></li>
+            <li><a href="hitta.html">Hitta</a></li>
+            <li><a href="kontakt.html">Kontakta</a></li>
+        </ul>
+        <div class="container">
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fornamn">Förnamn</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fornamn" name="Förnamn" placeholder="Ditt förnamn..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="efternamn">Efternamn</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="efternamn" name="Efternamn" placeholder="Ditt efternamn..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label>
+                            Antal rum <input name="antalrum">
+                        </label>
+                    </div>
+                    <div class="col-75">
+                        <select id="Antalrum" name="Antal rum">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label>    
+                            Personer per rum <input name="personerperrum"> for="personerperrun">
+                        </label>
+                    </div>
+                    <div class="col-75">
+                        <select id="personerperrum" name="Personer per rum">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label> 
+                            Personnummer <input name="personnummer">
+                        </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Personnummer" name="Efternamn" placeholder="Ditt personnummer..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label>
+                            Telefonnummer <input name="telefonnummer">
+                        </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Telefonnummer" name="telefonnummer" placeholder="Ditt telefonnummer..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label> 
+                            Email <input name="email">
+                        </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Email" name="emailr" placeholder="Din email..">
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Skicka">
+                    </div>
+
+                    <div class="footer">
+                        <p> Spångholmsgatan <br /> 
+                            Bara 23361 <br /> 
+                            Sweden <br /> </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
